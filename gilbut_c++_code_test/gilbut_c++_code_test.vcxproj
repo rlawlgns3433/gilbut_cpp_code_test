@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="filesystem.cpp" />
+    <ClCompile Include="graph_adjacent_list.cpp" />
     <ClCompile Include="graph_adjacent_matrix.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
