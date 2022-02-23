@@ -142,6 +142,7 @@
     <ClCompile Include="filesystem.cpp" />
     <ClCompile Include="graph_adjacent_list.cpp" />
     <ClCompile Include="graph_adjacent_matrix.cpp" />
+    <ClCompile Include="unordered_set_map.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
