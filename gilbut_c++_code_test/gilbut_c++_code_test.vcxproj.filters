@@ -27,5 +27,14 @@
     <ClCompile Include="unordered_set_map.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="D:\코딩\코테 C++\080239-master\080239-master\Lesson3\Activity06\short_url.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="evaluate_binary_search.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

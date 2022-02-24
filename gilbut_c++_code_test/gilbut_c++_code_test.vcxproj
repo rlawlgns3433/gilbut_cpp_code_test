@@ -139,9 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="D:\코딩\코테 C++\080239-master\080239-master\Lesson3\Activity06\short_url.cpp" />
+    <ClCompile Include="evaluate_binary_search.cpp" />
     <ClCompile Include="filesystem.cpp" />
     <ClCompile Include="graph_adjacent_list.cpp" />
     <ClCompile Include="graph_adjacent_matrix.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="unordered_set_map.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
