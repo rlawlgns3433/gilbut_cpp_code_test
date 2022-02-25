@@ -144,6 +144,8 @@
     <ClCompile Include="filesystem.cpp" />
     <ClCompile Include="graph_adjacent_list.cpp" />
     <ClCompile Include="graph_adjacent_matrix.cpp" />
+    <ClCompile Include="merge_sort.cpp" />
+    <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="unordered_set_map.cpp" />
   </ItemGroup>
