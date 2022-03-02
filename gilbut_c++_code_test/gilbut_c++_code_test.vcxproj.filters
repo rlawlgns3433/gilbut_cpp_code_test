@@ -48,5 +48,8 @@
     <ClCompile Include="D:\코딩\코테 C++\080239-master\080239-master\Lesson4\Exercise21\linear_time_select.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="implementation_of_map_and_reduce.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

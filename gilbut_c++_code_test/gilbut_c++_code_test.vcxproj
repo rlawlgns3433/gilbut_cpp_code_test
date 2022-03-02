@@ -145,6 +145,7 @@
     <ClCompile Include="filesystem.cpp" />
     <ClCompile Include="graph_adjacent_list.cpp" />
     <ClCompile Include="graph_adjacent_matrix.cpp" />
+    <ClCompile Include="implementation_of_map_and_reduce.cpp" />
     <ClCompile Include="linear_time_select.cpp" />
     <ClCompile Include="merge_sort.cpp" />
     <ClCompile Include="quick_sort.cpp" />
