@@ -51,5 +51,8 @@
     <ClCompile Include="implementation_of_map_and_reduce.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="shortest_job_first_scheduling.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

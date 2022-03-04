@@ -149,6 +149,7 @@
     <ClCompile Include="linear_time_select.cpp" />
     <ClCompile Include="merge_sort.cpp" />
     <ClCompile Include="quick_sort.cpp" />
+    <ClCompile Include="shortest_job_first_scheduling.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="unordered_set_map.cpp" />
   </ItemGroup>
