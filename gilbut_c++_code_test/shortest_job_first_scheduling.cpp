@@ -38,7 +38,7 @@ void compute_and_print_waiting_times(vector<T>& service_times) {
 	cout << endl;
 }
 
-int main(int argc, char* argv[]) {
+void shortest_job_first_scheduling(int argc, char* argv[]) {
 	vector<int> service_times{ 8,1,2,4,9,2,3,5 };
 	cout << "[처음 일 처리 시간 & 대기 시간]" << endl;
 	compute_and_print_waiting_times(service_times);

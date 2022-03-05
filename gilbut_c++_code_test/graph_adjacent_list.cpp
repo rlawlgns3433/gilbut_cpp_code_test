@@ -42,7 +42,7 @@
 //	}
 //};
 //
-//int main() {
+//void graph_adjacent_list() {
 //	graph g(6);
 //	g.addEdge(city::LONDON, city::MOSCOW, 2500);
 //	g.addEdge(city::LONDON, city::SEOUL, 9000);

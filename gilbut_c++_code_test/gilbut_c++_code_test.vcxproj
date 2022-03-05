@@ -143,10 +143,11 @@
     <ClCompile Include="D:\코딩\코테 C++\080239-master\080239-master\Lesson4\Exercise21\linear_time_select.cpp" />
     <ClCompile Include="evaluate_binary_search.cpp" />
     <ClCompile Include="filesystem.cpp" />
+    <ClCompile Include="fractional_knapsack_problem.cpp" />
     <ClCompile Include="graph_adjacent_list.cpp" />
     <ClCompile Include="graph_adjacent_matrix.cpp" />
     <ClCompile Include="implementation_of_map_and_reduce.cpp" />
-    <ClCompile Include="linear_time_select.cpp" />
+    <ClCompile Include="kruskal%27s_minimum_spanning_tree.cpp" />
     <ClCompile Include="merge_sort.cpp" />
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="shortest_job_first_scheduling.cpp" />
