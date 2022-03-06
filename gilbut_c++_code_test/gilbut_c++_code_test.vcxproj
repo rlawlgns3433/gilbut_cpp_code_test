@@ -146,6 +146,7 @@
     <ClCompile Include="fractional_knapsack_problem.cpp" />
     <ClCompile Include="graph_adjacent_list.cpp" />
     <ClCompile Include="graph_adjacent_matrix.cpp" />
+    <ClCompile Include="graph_coloring.cpp" />
     <ClCompile Include="implementation_of_map_and_reduce.cpp" />
     <ClCompile Include="kruskal%27s_minimum_spanning_tree.cpp" />
     <ClCompile Include="merge_sort.cpp" />
@@ -153,6 +154,9 @@
     <ClCompile Include="shortest_job_first_scheduling.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="unordered_set_map.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kruscal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
