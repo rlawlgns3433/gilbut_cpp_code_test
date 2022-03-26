@@ -152,6 +152,7 @@
     <ClCompile Include="implementation_of_map_and_reduce.cpp" />
     <ClCompile Include="kruskal%27s_minimum_spanning_tree.cpp" />
     <ClCompile Include="merge_sort.cpp" />
+    <ClCompile Include="prim_MST.cpp" />
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="shortest_job_first_scheduling.cpp" />
     <ClCompile Include="test.cpp" />

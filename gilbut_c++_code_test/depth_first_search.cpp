@@ -105,18 +105,17 @@ auto depth_first_search(const Graph<T>& G, unsigned start) {
 	}
 	return visit_order;
 }
-
-int main()
-{
-	using T = unsigned;
-
-	auto G = create_reference_graph<T>();
-	cout << "[입력 그래프]" << endl;
-	cout << G << endl;
-
-	//1번 정점부터 BFS 실행 & 방문 순서 출력
-	cout << "[DFS 방문 순서]" << endl;
-	auto dfs_visit_order = depth_first_search(G, 1);
-	for (auto v : dfs_visit_order)
-		cout << v << endl;
-}
+//
+//int main()
+//{
+//	using T = unsigned;
+//
+//	auto G = create_reference_graph<T>();
+//	cout << "[입력 그래프]" << endl;
+//	cout << G << endl;
+//
+//	//1번 정점부터 BFS 실행 & 방문 순서 출력
+//	cout << "[DFS 방문 순서]" << endl;
+//	auto dfs_visit_order = depth_first_search(G, 1);
+//	for (auto v : dfs_visit_order)
+//		cout << v << endl;

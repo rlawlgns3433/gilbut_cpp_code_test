@@ -66,6 +66,9 @@
     <ClCompile Include="depth_first_search.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="prim_MST.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="graph.h">
