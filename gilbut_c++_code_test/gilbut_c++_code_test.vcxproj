@@ -142,6 +142,7 @@
     <ClCompile Include="breadth_first_search.cpp" />
     <ClCompile Include="D:\코딩\코테 C++\080239-master\080239-master\Lesson3\Activity06\short_url.cpp" />
     <ClCompile Include="D:\코딩\코테 C++\080239-master\080239-master\Lesson4\Exercise21\linear_time_select.cpp" />
+    <ClCompile Include="depth_first_search.cpp" />
     <ClCompile Include="evaluate_binary_search.cpp" />
     <ClCompile Include="filesystem.cpp" />
     <ClCompile Include="fractional_knapsack_problem.cpp" />
