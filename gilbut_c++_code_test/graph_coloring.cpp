@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include "kruscal.h"
+#include "graph.h"
 #include <vector>
 #include <map>
 #include <set>
@@ -44,29 +44,29 @@ void print_colors(vector<T>& colors) {
 	}
 }
 
-int main()
-{
-	using T = unsigned;
-	Graph<T> G(9);
-
-	map<unsigned, vector<pair<unsigned, T>>> edge_map;
-	edge_map[1] = { {2,0},{5,0} };
-	edge_map[2] = { {1,0},{5,0 },{4,0} };
-	edge_map[3] = { {4,0},{7,0} };
-	edge_map[4] = { {2,0},{3,0},{5,0},{6,0},{8,0} };
-	edge_map[5] = { {1,0},{2,0},{4,0},{8,0} };
-	edge_map[6] = { {4,0},{7,0},{8,0} };
-	edge_map[7] = { {3,0},{6,0} };
-	edge_map[8] = { {4,0},{5,0},{6,0} };
-
-	for (auto& i : edge_map)
-		for (auto& j : i.second)
-			G.add_edge(Edge<T>{i.first, j.first, j.second});
-
-	cout << "[입력 그래프]" << endl;
-	cout << G << endl;
-
-	auto colors = greedy_coloring<T>(G);
-	cout << "[그래프 컬러링]" << endl;
-	print_colors(colors);
-}
+//int main()
+//{
+//	using T = unsigned;
+//	Graph<T> G(9);
+//
+//	map<unsigned, vector<pair<unsigned, T>>> edge_map;
+//	edge_map[1] = { {2,0},{5,0} };
+//	edge_map[2] = { {1,0},{5,0 },{4,0} };
+//	edge_map[3] = { {4,0},{7,0} };
+//	edge_map[4] = { {2,0},{3,0},{5,0},{6,0},{8,0} };
+//	edge_map[5] = { {1,0},{2,0},{4,0},{8,0} };
+//	edge_map[6] = { {4,0},{7,0},{8,0} };
+//	edge_map[7] = { {3,0},{6,0} };
+//	edge_map[8] = { {4,0},{5,0},{6,0} };
+//
+//	for (auto& i : edge_map)
+//		for (auto& j : i.second)
+//			G.add_edge(Edge<T>{i.first, j.first, j.second});
+//
+//	cout << "[입력 그래프]" << endl;
+//	cout << G << endl;
+//
+//	auto colors = greedy_coloring<T>(G);
+//	cout << "[그래프 컬러링]" << endl;
+//	print_colors(colors);
+//}
